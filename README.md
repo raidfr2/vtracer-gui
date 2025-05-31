@@ -94,8 +94,3 @@ This project is licensed under the [MIT License](LICENSE).
 * GUI written in Python with `tkinter`
 * Powered by [VTracer](https://github.com/visioncortex/vtracer)
 
-```
-
-Let me know if you want me to include a badge (e.g. for license, Python version, etc.) or image preview block.
-```
-
