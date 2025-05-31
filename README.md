@@ -1,6 +1,4 @@
-Here's a complete, copy-paste-ready `README.md` for your VTracer GUI wrapper:
 
-````markdown
 # 🖼️ VTracer GUI Wrapper
 
 A simple Python GUI that acts as a wrapper around [VTracer](https://github.com/visioncortex/vtracer), allowing users to batch-convert images to SVG format using customizable options.
