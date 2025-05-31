@@ -1,20 +1,101 @@
-# VTracer GUI Wrapper 🖼️➡️🧩
+Here's a complete, copy-paste-ready `README.md` for your VTracer GUI wrapper:
 
-A Python GUI wrapper for [VTracer](https://github.com/visioncortex/vtracer), a command-line tool that converts raster images to SVG vectors.
+````markdown
+# 🖼️ VTracer GUI Wrapper
 
-## Features
+A simple Python GUI that acts as a wrapper around [VTracer](https://github.com/visioncortex/vtracer), allowing users to batch-convert images to SVG format using customizable options.
 
-- Select multiple images via a GUI
-- Customize VTracer parameters ( I Will Add It Later )
-- Batch process images 
-- Auto-numbered SVG outputs
+---
 
-## Installation
+## ✅ Features
 
-1. **Install VTracer**
+- 📁 Select multiple images using a file dialog
+- ⚙️ Customize VTracer options like mode, color count, etc.
+- 🔁 Automatically processes all selected images
+- 📄 Outputs SVG files with sequential names in the same folder
 
-You must install the VTracer tool:
+---
+
+## 💻 Requirements
+
+- Python 3.7+
+- VTracer (installed on your system)
+
+Install Python dependencies:
+
+```bash
+pip install tk
+````
+
+---
+
+## 🔧 Installing VTracer
+
+To use this tool, you **must install VTracer** from [GitHub](https://github.com/visioncortex/vtracer):
+
+### Option 1: Install with Cargo (Rust)
 
 ```bash
 cargo install vtracer
+```
+
+### Option 2: Download Binary
+
+Visit the [VTracer Releases Page](https://github.com/visioncortex/vtracer/releases) and download the binary for your OS. Make sure it’s accessible in your system's `PATH`.
+
+---
+
+## 🚀 Usage
+
+### GUI Mode
+
+Launch the GUI with:
+
+```bash
+python vtracer_gui.py --gui
+```
+
+A window will appear allowing you to:
+
+* Choose multiple images
+* Select vectorization options
+* Start the batch conversion
+
+### CLI Mode
+
+You can also run it headless:
+
+```bash
+python vtracer_gui.py image1.jpg image2.png --colormode color --mode default
+```
+
+---
+
+## 🗂️ Output
+
+SVG files will be created in the **same directory** as the original images, named like:
+
+```
+image_0.svg
+image_1.svg
+...
+```
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Credits
+
+* GUI written in Python with `tkinter`
+* Powered by [VTracer](https://github.com/visioncortex/vtracer)
+
+```
+
+Let me know if you want me to include a badge (e.g. for license, Python version, etc.) or image preview block.
+```
 
