@@ -1,4 +1,4 @@
-
+note : this is my first time doing an opensource project so it may be messed up or unorganized but it will work 
 # 🖼️ VTracer GUI Wrapper
 
 A simple Python GUI that acts as a wrapper around [VTracer](https://github.com/visioncortex/vtracer), allowing users to batch-convert images to SVG format using customizable options.
